@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState,useEffect, useRef} from 'react'
 import { flushSync } from 'react-dom'
+import './Question.css'
 
 function Question({question, totalQuestions, currentQuestion, setAnswer}) {
     const [selectedOption, setSelectedOption] = useState(null);
@@ -37,13 +38,12 @@ function Question({question, totalQuestions, currentQuestion, setAnswer}) {
     <div className='question'>
       <div className="progress-bar" ref={progressBar}></div>
       <div className="question-count">
-        <b>{currentQuestion+1}</b>
+        <b>{currentQuestion+1} </b>
         of
-        <b>{totalQuestions}</b>
+        <b> {totalQuestions}</b>
       </div>
       <div className="main">
         <div className="title">
-            <span>Question : </span>
             <p>{question.title}</p>
         </div>
         <div className="options">

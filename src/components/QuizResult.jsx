@@ -1,6 +1,7 @@
 import React from 'react'
+import './QuizResult.css'
 
-function QuizResult() {
+function QuizResult({result,retry}) {
   return (
     <div className='result-screen'>
       <h2>Result: {result.percentage}%</h2>

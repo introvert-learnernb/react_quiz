@@ -1,0 +1,50 @@
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;   
+  }
+
+  .question {
+    color: black;
+  }
+  
+  .question h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .next-btn {
+    padding: 7px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .options .option {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .options .option:hover {
+    background-color: #0056b3;
+  }
+  
+  .options .option.active {
+    background-color: #28a745;
+    color: white;
+  }
