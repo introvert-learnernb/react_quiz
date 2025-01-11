@@ -1,0 +1,53 @@
+[
+    {
+      "title": "What is the primary function of a transistor in a circuit?",
+      "options": ["Amplification", "Switching", "Voltage regulation", "Rectification"],
+      "correctoption": "0"
+    },
+    {
+      "title": "Which of the following is a characteristic of a CMOS transistor?",
+      "options": ["High power consumption", "Low input impedance", "Low power consumption", "High noise susceptibility"],
+      "correctoption": "2"
+    },
+    {
+      "title": "In a differential amplifier, what does the input common-mode rejection ratio (CMRR) measure?",
+      "options": ["Input impedance", "Output voltage swing", "Noise reduction", "Ability to reject common-mode signals"],
+      "correctoption": "3"
+    },
+    {
+      "title": "Which component is commonly used to filter high-frequency noise in power supply circuits?",
+      "options": ["Inductor", "Capacitor", "Resistor", "Diode"],
+      "correctoption": "1"
+    },
+    {
+      "title": "What is the purpose of a Zener diode in a voltage regulator circuit?",
+      "options": ["Rectification", "Voltage clamping", "Signal amplification", "Current limiting"],
+      "correctoption": "1"
+    },
+    {
+      "title": "Which logic gate is represented by the Boolean expression A.B?",
+      "options": ["OR", "AND", "NOT", "XOR"],
+      "correctoption": "1"
+    },
+    {
+      "title": "What is the function of an operational amplifier (Op-Amp) in an active filter circuit?",
+      "options": ["Amplification", "Frequency filtering", "Rectification", "Switching"],
+      "correctoption": "1"
+    },
+    {
+      "title": "What is the main advantage of using a Field-Effect Transistor (FET) over a Bipolar Junction Transistor (BJT)?",
+      "options": ["Higher switching speed", "Lower power consumption", "Higher current gain", "Better thermal stability"],
+      "correctoption": "1"
+    },
+    {
+      "title": "In a power amplifier, what is the primary cause of distortion?",
+      "options": ["Saturation of the transistor", "Overload of the power supply", "High frequency noise", "Harmonic distortion"],
+      "correctoption": "0"
+    },
+    {
+      "title": "Which type of semiconductor material is used to create a P-N junction?",
+      "options": ["Silicon", "Germanium", "Gallium arsenide", "All of the above"],
+      "correctoption": "3"
+    }
+  ]
+  
